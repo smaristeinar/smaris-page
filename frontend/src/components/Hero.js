@@ -20,9 +20,9 @@ export default function Hero() {
                 <path
                   d="M3 3L48 73L93 3"
                   stroke="black"
-                  stroke-width="8"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>
