@@ -4,20 +4,22 @@ import { getPortFolioItems } from "../Helpers/getPortfolioItems";
 import Card from "./common/Card";
 
 export default function Portfolio() {
-  const [portfolioItems, setPortfolioItems] = useState([])
+  const [portfolioItems, setPortfolioItems] = useState([]);
 
-  useEffect(()=>{
-  const data = getPortFolioItems()
-   setPortfolioItems(data);
-  
-  },[])
+  useEffect(() => {
+    const data = getPortFolioItems();
+    setPortfolioItems(data);
+  }, []);
 
   return (
     <section className="portfolio">
-      <h1>hello world</h1>
-      {portfolioItems?.data?.length ? portfolioItems.data.forEach(item => {
-       return <p>shit</p>
-      }) : <p>poops</p>}
+      {portfolioItems?.data?.length ? (
+        portfolioItems.data.map((item) => {
+          return <Card props={item} key={item.id} />;
+        })
+      ) : (
+        <p>poops</p>
+      )}
     </section>
   );
 }

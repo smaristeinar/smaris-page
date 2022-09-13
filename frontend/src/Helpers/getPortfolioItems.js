@@ -34,6 +34,7 @@ export function getPortFolioItems() {
   return {
     data: [
       {
+        id: 1,
         title: "Vadfanskajagkopa",
         image: { url: "images/vadfan.png" },
         content:

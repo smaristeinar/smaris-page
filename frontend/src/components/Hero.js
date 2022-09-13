@@ -2,7 +2,7 @@ import React from "react";
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="title">
+      {/* <div className="title">
         <div className="title-smari">
           <h1>
             SMARI..<span className="blinker"></span>
@@ -28,7 +28,7 @@ export default function Hero() {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
