@@ -1,7 +1,6 @@
-import { render } from "@testing-library/react";
 import { useEffect, useState } from "react";
 import { getPortFolioItems } from "../Helpers/getPortfolioItems";
-import Card from "./common/Card";
+import Card from "../components/Card";
 
 export default function Portfolio() {
   const [portfolioItems, setPortfolioItems] = useState([]);
