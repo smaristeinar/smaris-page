@@ -5,7 +5,7 @@ import Portfolio from "./routes/Portfolio";
 import Nav from "./components/Nav";
 function App() {
   return (
-    <div className="App bg-sky-500 min-h-screen">
+    <div className="App bg-slate-100 min-h-screen">
       <BrowserRouter>
         <Nav />
         <Routes>
