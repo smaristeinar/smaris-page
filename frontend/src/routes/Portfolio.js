@@ -19,7 +19,7 @@ export default function Portfolio() {
             return <Card props={item} key={item.id} />;
           })
         ) : (
-          <p>poops</p>
+          ""
         )}
       </div>
     </section>
