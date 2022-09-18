@@ -49,14 +49,6 @@ export default function Nav() {
             >
               <li className="hover:text-indigo-500">About</li>
             </Link>
-            <Link
-              onClick={() => {
-                setOpen(false);
-              }}
-              to="/Contact"
-            >
-              <li className="hover:text-indigo-500">Contact</li>
-            </Link>
           </ul>
         </nav>
       </div>

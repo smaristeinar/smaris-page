@@ -1,36 +1,4 @@
 export function getPortFolioItems() {
-  //   const datoUrl = "https://graphql.datocms.com/";
-  //   const datoToken = "2ced09529a009c1cded1d9de093478";
-  //   const graphqlQuery = `{
-  //     allProjects {
-  //       title
-  //       preview {
-  //         url(imgixParams: {})
-  //       }
-  //       content
-  //       links
-  //     }
-  //   }
-  //  `;
-
-  //   await fetch(datoUrl, {
-  //     method: "POST",
-  //     body: JSON.stringify({ query: graphqlQuery }),
-  //     headers: {
-  //       Authorization: datoToken,
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json",
-  //     },
-  //   })
-  //     .then((response) => {
-  //       if (response.ok) {
-  //         return response.json();
-  //       }
-  //     })
-  //     .catch((error) => {
-  //       return error;
-  //     });
-
   return {
     data: [{
         id: 1,
@@ -38,25 +6,25 @@ export function getPortFolioItems() {
         image: {
           url: "images/vadfan.jpg"
         },
-        content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        content: "At Coolstuff me and another intern got the chance to build Vadfanskajagkopa, a marketing application built with Svelte-Kit and Typescript on the frontend. The backend uses Cloudflare workers to gather data from separate graphQl apis (datoCMS and jetshop) and araing the data into Cloudflare’s kv storage. With this project we got to experience building a full stack application with the expectations of delivering a production worthy project as well as setting up a cd/ci pipeline for the project.",
         links: {
           github: undefined,
           url: "https://vadfanskajagkopa.se/",
         },
-        tags: ["Clouflare", "Svlete-kit", "Typescript", "GraphQl"]
+        tags: ["Clouflare", "Svlete-kit", "Typescript", "GraphQl", "Github actions"]
       },
       {
         id: 2,
-        title: "Vadfanskajagkopa",
+        title: "Skateblog",
         image: {
-          url: "images/vadfan.jpg"
+          url: "images/skateblog.jpg"
         },
-        content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
+        content: "My final project for medieinstitutet i wanted to create a blog application using familiare the tech of Vadfanskajagkopa. I decided to use Cloudflare’s kv and edge hosting, algon with Svelte-kit, trying to maximize response time for the user wanting to read the newest skateboarding news. Using Cloudflare workers to manage data in to kv stores",
         links: {
-          github: "stuf",
-          url: "https://vadfanskajagkopa.se/",
+          github: "https://github.com/smaristeinar/Skate-blog",
+          url: "https://skate-blog.pages.dev/",
         },
-        tags: ["Clouflare", "Svlete-kit", "Typescript", "GraphQl"]
+        tags: ["Clouflare", "Svlete-kit", "GraphQl"]
       },
     ],
   };
