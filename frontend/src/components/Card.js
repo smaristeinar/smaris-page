@@ -1,7 +1,6 @@
 import Scocials from "./socials";
 
 export default function Card(props) {
-  console.log(props);
   return (
     <div className=" flex flex-col pb-6 pl-2 pr-2 text-xs lg:flex-row items-center lg:items-start">
       <img

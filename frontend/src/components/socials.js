@@ -1,5 +1,4 @@
 export default function Scocials(links){
-    console.log(links.links);
     return (
         <ul className="flex gap-3 p-2">
             {links?.links?.github ? <li>
