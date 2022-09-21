@@ -8,7 +8,7 @@ export default function Hero() {
         <img src="/images/smari.jpeg" />
       </div>
       <h1 className="font-bold text-4xl">Smári</h1>
-      <p>A dveloper, i have some pojects</p>
+      <p>A developer, i have some projects</p>
       <ul className="flex gap-3 pt-5">
         <li><button><a href="https://github.com/smaristeinar"><img width="32px" height="auto" src="/images/github.svg" alt="" /></a></button></li>
         <li><button><a href="https://www.linkedin.com/in/sm%C3%A1ri-steinar-982132201/"><img width="32px" height="auto" src="/images/linkedin.svg" alt="" /></a></button></li>

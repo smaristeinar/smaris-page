@@ -6,7 +6,7 @@ export function getPortFolioItems() {
         image: {
           url: "images/vadfan.jpg"
         },
-        content: "At Coolstuff me and another intern got the chance to build Vadfanskajagkopa, a marketing application built with Svelte-Kit and Typescript on the frontend. The backend uses Cloudflare workers to gather data from separate graphQl apis (datoCMS and jetshop) and araing the data into Cloudflare’s kv storage. With this project we got to experience building a full stack application with the expectations of delivering a production worthy project as well as setting up a cd/ci pipeline for the project.",
+        content: "At Coolstuff me and another intern got the chance to build Vadfanskajagkopa, a marketing application built with Svelte-Kit and Typescript on the frontend. The backend uses Cloudflare workers to gather data from separate graphQl APIs (datoCMS and jetshop) and araing the data into Cloudflare’s KV storage. With this project we got to experience building a full stack application with the expectations of delivering a production worthy project as well as setting up a CD/CI pipeline for the project.",
         links: {
           github: undefined,
           url: "https://vadfanskajagkopa.se/",
