@@ -18,7 +18,7 @@ export default function About() {
                         <li>
                             <h3 className="flex items-center text-xl font-semibold gap-3">Tækniskólinn <span className="flex gap-3"><a href="https://tskoli.is/"><img src="/images/link.svg" height="auto" width="18px" alt="" /></a></span></h3>
                             <p className="text-base font-light">Programming 2018-2020</p>
-                            <p className="text-lg pl-2">At tækniskólinn i studied programming in python, game development with C# web development with javascript and robotics with C++.</p>
+                            <p className="text-lg pl-2">At Tækniskólinn i studied programming in python, game development with C# web development with javascript and robotics with C++.</p>
                         </li>
                     </ul>
                 </div>
