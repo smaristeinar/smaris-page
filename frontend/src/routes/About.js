@@ -13,7 +13,7 @@ export default function About() {
                         <li className="pb-3">
                             <h3 className="flex items-center text-xl font-semibold gap-3">Medieinstitutet <span className="flex gap-3"><a href="https://medieinstitutet.se/"><img src="/images/link.svg" height="auto" width="18px" alt="" /></a></span></h3>
                             <p className="text-base font-light">Frontend 2020-2022</p>
-                            <p className="text-lg pl-2">At Medieinstitutet i studied all things fronted working with various technologies like React, MongoDB, and ExpressJS</p>
+                            <p className="text-lg pl-2">At Medieinstitutet i studied all things fronted working with various technologies like Html, CSS, JS, Socket.io, React, MongoDB, ExpressJS and more</p>
                         </li>
                         <li>
                             <h3 className="flex items-center text-xl font-semibold gap-3">Tækniskólinn <span className="flex gap-3"><a href="https://tskoli.is/"><img src="/images/link.svg" height="auto" width="18px" alt="" /></a></span></h3>
